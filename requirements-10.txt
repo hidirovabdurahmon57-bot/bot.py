@@ -1,0 +1,20 @@
+# ╔══════════════════════════════════════════════════════╗
+# ║       SUPER BOT v12 — requirements.txt               ║
+# ║  O'rnatish: pip install -r requirements.txt          ║
+# ╚══════════════════════════════════════════════════════╝
+
+# ── Asosiy (majburiy) ─────────────────────────────────
+pyTelegramBotAPI>=4.18.0       # telebot — Telegram bot framework
+requests>=2.31.0               # HTTP so'rovlar (AI, Instagram API)
+
+# ── Video yuklab olish ────────────────────────────────
+yt-dlp>=2024.1.1               # Instagram/YouTube video yuklab olish
+
+# ── PDF yaratish ──────────────────────────────────────
+reportlab>=4.0.0               # Matndan PDF yaratish
+
+# ── Standart kutubxonalar (o'rnatish shart emas) ──────
+# sqlite3   — ma'lumotlar bazasi (Python bilan birga keladi)
+# logging   — loglash (Python bilan birga keladi)
+# threading — parallel ishlar (Python bilan birga keladi)
+# os, re, time, datetime, typing — Python standart
